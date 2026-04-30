@@ -86,3 +86,8 @@ h1 {
   cursor: pointer;
   font-size: 12px;
 }
+
+.delete-btn:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}
