@@ -1,8 +1,5 @@
 # Demo Script — Git Flow: Release Branch
 
-> Jalankan satu per satu di terminal. **Screenshot setiap output.**
-> Pastikan terminal berada di folder `dummy-project` ini.
-
 ---
 
 ## STEP 1 — Cek status di develop
