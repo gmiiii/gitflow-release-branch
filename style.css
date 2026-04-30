@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+.container {
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 480px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: #888;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.note-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+#noteInput {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#addBtn {
+  padding: 10px 18px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#addBtn:hover {
+  background: #5568d3;
+}
+
+#noteList {
+  list-style: none;
+}
+
+#noteList li {
+  padding: 12px;
+  background: #f7f7fb;
+  border-left: 4px solid #667eea;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
