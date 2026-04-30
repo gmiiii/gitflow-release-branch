@@ -21,3 +21,9 @@ addBtn.addEventListener('click', addNote);
 noteInput.addEventListener('keypress', (e) => {
   if (e.key === 'Enter') addNote();
 });
+
+// Feature A: Hitung jumlah catatan
+function updateCount() {
+  const count = noteList.children.length;
+  document.title = `NoteKeeper (${count})`;
+}
